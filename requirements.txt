@@ -1,0 +1,15 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-cosmos
+azure-functions
+azure-identity
+azure-keyvault-secrets
+numpy
+openai==0.27.10
+promptflow==1.0.0
+promptflow-tools==0.1.0b12
+semantic-kernel==0.3.14.dev0
+tiktoken
+tenacity
